@@ -1,3 +1,17 @@
 node_modules/
 .env
+.env.*
+!.env.example
+*.log
 .DS_Store
+
+# Flutter
+latihan_api/.dart_tool/
+latihan_api/.flutter-plugins
+latihan_api/.flutter-plugins-dependencies
+latihan_api/.pub-cache/
+latihan_api/build/
+latihan_api/android/local.properties
+latihan_api/**/key.properties
+*.jks
+*.keystore
