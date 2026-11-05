@@ -1,0 +1,400 @@
+{
+  "info": {
+    "_postman_id": "122cdf1b-cc2a-4775-9a7c-2844823330f4",
+    "name": "APIsekola2",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52227812"
+  },
+  "item": [
+    {
+      "name": "users",
+      "item": [
+        {
+          "name": "get data user",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaG9saXNoYXNAZ21haWwuY29tIiwiaWF0IjoxNzkzNjk5MDMwLCJleHAiOjE3OTM3MDI2MzB9.JLPsaNWS_CBZlWdLXXKSZ86Ymz74r7snK38FvIcr1wc",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/user",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "user"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get data user by id",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaG9saXNoYXNAZ21haWwuY29tIiwiaWF0IjoxNzkzNjk5MDMwLCJleHAiOjE3OTM3MDI2MzB9.JLPsaNWS_CBZlWdLXXKSZ86Ymz74r7snK38FvIcr1wc",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/user/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "user",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "post data user",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaG9saXNoYXNAZ21haWwuY29tIiwiaWF0IjoxNzkzNjk5MDMwLCJleHAiOjE3OTM3MDI2MzB9.JLPsaNWS_CBZlWdLXXKSZ86Ymz74r7snK38FvIcr1wc",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"nama\": \"Siti Nur Kh\",\r\n        \"email\": \"Kholias@gmail.com\",\r\n        \"password\": \"satusatu\",\r\n        \"status\": \"Aktif\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/user",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "user"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "edit data user",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaG9saXNoYXNAZ21haWwuY29tIiwiaWF0IjoxNzkzNjk5MDMwLCJleHAiOjE3OTM3MDI2MzB9.JLPsaNWS_CBZlWdLXXKSZ86Ymz74r7snK38FvIcr1wc",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"nama\": \"Siti Nur Kh\",\r\n        \"email\": \"Kholias@gmail.com\",\r\n        \"password\": \"satudua\",\r\n        \"status\": \"Aktif\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api//user/10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "",
+                "user",
+                "10"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "hapus data siswa",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaG9saXNoYXNAZ21haWwuY29tIiwiaWF0IjoxNzkzNjk5MDMwLCJleHAiOjE3OTM3MDI2MzB9.JLPsaNWS_CBZlWdLXXKSZ86Ymz74r7snK38FvIcr1wc",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"nama\": \"Siti Nur Kh\",\r\n        \"email\": \"Kholias@gmail.com\",\r\n        \"password\": \"satusatu\",\r\n        \"status\": \"Aktif\"\r\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/user/10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "user",
+                "10"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "siswa",
+      "item": [
+        {
+          "name": "get data siswa",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaG9saXNoYXNAZ21haWwuY29tIiwiaWF0IjoxNzkzNjk5MDMwLCJleHAiOjE3OTM3MDI2MzB9.JLPsaNWS_CBZlWdLXXKSZ86Ymz74r7snK38FvIcr1wc",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/siswa",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "siswa"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get data by id",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaG9saXNoYXNAZ21haWwuY29tIiwiaWF0IjoxNzkzNjk5MDMwLCJleHAiOjE3OTM3MDI2MzB9.JLPsaNWS_CBZlWdLXXKSZ86Ymz74r7snK38FvIcr1wc",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/siswa/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "siswa",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "post data siswa",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaG9saXNoYXNAZ21haWwuY29tIiwiaWF0IjoxNzkzNjk5MDMwLCJleHAiOjE3OTM3MDI2MzB9.JLPsaNWS_CBZlWdLXXKSZ86Ymz74r7snK38FvIcr1wc",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"id\": 7,\r\n        \"nipd\": \"242510080\",\r\n        \"nama\": \"Sugiarto Raharjo\",\r\n        \"jenis_kelamin\": \"L\",\r\n        \"kelas\": \"XII\",\r\n        \"jurusan\": \"RPL\",\r\n        \"alamat\": \"parungpanjang\"\r\n    }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/siswa",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "siswa"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "edit data siswa",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaG9saXNoYXNAZ21haWwuY29tIiwiaWF0IjoxNzkzNjk5MDMwLCJleHAiOjE3OTM3MDI2MzB9.JLPsaNWS_CBZlWdLXXKSZ86Ymz74r7snK38FvIcr1wc",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"id\": 6,\r\n        \"nipd\": \"242510081\",\r\n        \"nama\": \"Umar Hafidz Muhyidin\",\r\n        \"jenis_kelamin\": \"L\",\r\n        \"kelas\": \"XII\",\r\n        \"jurusan\": \"RPL\",\r\n        \"alamat\": \"parungpanjang\"\r\n    }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/siswa/13",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "siswa",
+                "13"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "hapus data siswa",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaG9saXNoYXNAZ21haWwuY29tIiwiaWF0IjoxNzkzNjk5MDMwLCJleHAiOjE3OTM3MDI2MzB9.JLPsaNWS_CBZlWdLXXKSZ86Ymz74r7snK38FvIcr1wc",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"id\": 7,\r\n        \"nipd\": \"242510080\",\r\n        \"nama\": \"Sugiarto Raharjo\",\r\n        \"jenis_kelamin\": \"L\",\r\n        \"kelas\": \"XII\",\r\n        \"jurusan\": \"RPL\",\r\n        \"alamat\": \"parungpanjang\"\r\n    }"
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/siswa/13",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "siswa",
+                "13"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "login",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"email\": \"kholishas@gmail.com\",\r\n    \"password\": \"mundurgaks\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/login",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

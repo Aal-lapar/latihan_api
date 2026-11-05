@@ -1,17 +1,26 @@
-node_modules/
-.env
-.env.*
-!.env.example
-*.log
-.DS_Store
+
+# Next.js / Node.js
+**/node_modules/
+**/.next/
+**/out/
+**/.env
+**/.env.*
+!**/.env.example
 
 # Flutter
-latihan_api/.dart_tool/
-latihan_api/.flutter-plugins
-latihan_api/.flutter-plugins-dependencies
-latihan_api/.pub-cache/
-latihan_api/build/
-latihan_api/android/local.properties
-latihan_api/**/key.properties
-*.jks
-*.keystore
+**/.dart_tool/
+**/build/
+**/.flutter-plugins-dependencies
+**/android/local.properties
+**/android/key.properties
+**/android/*.jks
+**/android/*.keystore
+
+# IDE
+**/.idea/
+**/.vscode/
+*.iml
+
+# System
+.DS_Store
+Thumbs.db
