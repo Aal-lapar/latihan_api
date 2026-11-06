@@ -98,22 +98,22 @@ Import collection tersebut ke Postman untuk menguji endpoint API. Isi variabel a
 # Tampilan Aplikasi
 
 ### 1. Halaman Login
-![Halaman Login](c:\Users\USER\Downloads\login.jfif)
+![Halaman Login](C:\Users\USER\StudioProjects\latihan_api_baru\images)
 
 ### 2. Halaman Dashboard
-![Halaman Dashboard](c:\Users\USER\Downloads\dashboard.jfif)  
+![Halaman Dashboard](C:\Users\USER\StudioProjects\latihan_api_baru\images)  
 
 ### 3. Halaman Data Siswa
-![Halaman Data Siswa](c:\Users\USER\Downloads\datasiswa.jfif)
+![Halaman Data Siswa](C:\Users\USER\StudioProjects\latihan_api_baru\images)
 
-### 4. Halaman Data User
-![Halaman Data User](c:\Users\USER\Downloads\tambah.jfif)
+### 4. Halaman Data Input
+![Halaman Data User](C:\Users\USER\StudioProjects\latihan_api_baru\images)
 
-### 5. Halaman Input Data
-![Halaman Input Data](images/input.png)
+### 5. Halaman Input Edit
+![Halaman Input Data](C:\Users\USER\StudioProjects\latihan_api_baru\images)
 
-### 6. Halaman Edit Data
-![Halaman Edit Data](c:\Users\USER\Downloads\edit.jfif)
+### 6. Halaman User
+![Halaman Edit Data](C:\Users\USER\StudioProjects\latihan_api_baru\images)
 
 ## Catatan Pengembangan
 
